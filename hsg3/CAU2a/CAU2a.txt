@@ -1,0 +1,17 @@
+﻿print(“Nhập số M<N:”)
+m=int(input('Nhập M:'))
+n=int(input('Nhập N:'))
+tong=0
+for i in range(m,n+1)
+	if (i%3==0)or(i%5==0):
+	tong=tong+i
+print('Kết quả: tong ')
+
+'''
+Chương trình trên có lỗi cú pháp ở dòng 5, kí tự thứ 22 (thiếu dấu hai chấm)
+và dòng 8 (biến 'tong' nằm trong xâu, không thể xuất ra kết quả).
+'''
+'''
+Chương trình trên thực hiện công việc tính tổng của
+các số chia hết cho 3 hoặc 5 trong khoảng từ m đến n.
+'''
